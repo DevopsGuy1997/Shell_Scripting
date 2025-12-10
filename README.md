@@ -166,3 +166,19 @@ Dicision making:
 
 ================================================================================================================
 
+LOOPS:
+provides several types of loops to execute a block of commands repeatedly, these loops are essential fot authomatinh repetative tasks, processing list of files and handling command line arguments.
+
+1) while loop: Runs the statement only if the condition is true.
+    syntax:
+    while [ condition ]
+    do 
+    statement(s)
+    done
+
+2) Until loop: Runs the statement until the condition becomes true
+   syntax:
+   until [ condition ]
+   do
+   statement(s)
+   done
