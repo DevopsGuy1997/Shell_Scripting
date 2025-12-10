@@ -121,7 +121,7 @@ File test operators
 -e Checks if the file exists.
 
 
-=========================================================
+====================================================================================================
 Dicision making:
 > Only when a condition is writing success or true value the script will pick the lines to executes.
 > Supoose the condition is writening false then line will not be picked for exiction.
@@ -142,32 +142,27 @@ Dicision making:
     else
     #code to run if condition is "false"
     fi
+3. if.. elsif.. else statement: when we have two conditions we use.
+   syntax: 
+   if [ codition ]; then
+   #code to run if condition is true
+   elsif [ condition ]; then
+   #code to run if condition is true
+   else
+   #code to run id condition is false
+   fi
+
+4. Swich Statememt: using "case" expression allow to compare a single value aganest several possible values and exicute a specific block of commands for the first match found
+   syntax:
+   case variable in
+   pattern1)
+   #code to run if pattern matches;;
+   pattern2) 
+   #code to run if pattern matches;;
+   ^)
+   #code if nothing matches;;
+   esac
    
+
 ================================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
 
