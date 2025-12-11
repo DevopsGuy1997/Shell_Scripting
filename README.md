@@ -182,3 +182,29 @@ provides several types of loops to execute a block of commands repeatedly, these
    do
    statement(s)
    done
+
+3) For loop: Number of iterations depending on a list of values.
+   syntax: 
+   for variable in var1 var2 var3
+   do
+   statement (s)
+   done
+
+4) Loop Controle: Sometimes we need to stop a loop in-between or skip a iteration of the loop
+   --> brack - terminates the entire loop
+   --> continue - skips a iteration
+
+5) Nested loop: A nested loop is a loop structure where one loop (the inner loop) is placed entirely inside the body of another loop (the outer loop). This structure is crucial in shell scripting for tasks that require iterating over two-dimensional data sets or performing combinatorial operations.
+   
+==============================================================================================================
+
+Functions: Allow you to group a sequence of commands into a single reusable unit. They help make scripts modular, readable, and maintainable
+     syntex:
+     Defining a function:
+     function_name () {
+        statement(s)
+     }
+     
+     Calling a function:
+     function_name <arguments>
+
