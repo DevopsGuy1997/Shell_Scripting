@@ -208,3 +208,4 @@ Functions: Allow you to group a sequence of commands into a single reusable unit
      Calling a function:
      function_name <arguments>
 
+# Scripting
